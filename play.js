@@ -1,6 +1,6 @@
-var name='prabhat';
-var age=20;
-var hasHobbies=true;
+let name='prabhat';
+let age=20;
+let hasHobbies=true;
 
 
 function summarizeUser(Username,userage,userhashobbies){
@@ -8,3 +8,17 @@ function summarizeUser(Username,userage,userhashobbies){
 }
 
 console.log(summarizeUser(name,age,hasHobbies))
+
+
+const add=(a,b)=>{
+    return a+b
+}
+
+console.log(add(2,3))
+
+
+const product=(a,b)=>{
+    return a*b
+}
+
+console.log(product(25,2))
